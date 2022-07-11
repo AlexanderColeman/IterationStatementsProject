@@ -8,10 +8,6 @@ namespace IterationStatements
     {
         public static void Exercise1()
         {
-            for(int i = 0; i < 5; i++)
-            {
-                Console.WriteLine($"{i}");
-            }
             for (int i = 0; i < 5; i++)
             {
                 Console.WriteLine($"{i}");
@@ -68,7 +64,11 @@ namespace IterationStatements
             {
                 Console.WriteLine($"{i}");
             }
-            
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine($"{i}");
+            }
+
         }
         public static void Exercise2()
         {
@@ -149,9 +149,6 @@ namespace IterationStatements
 
             //------------End of exercise
         }
-
-       
-
 
     }
 }

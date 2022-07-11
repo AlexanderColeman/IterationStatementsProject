@@ -9,7 +9,7 @@ namespace IterationStatements
 
         public void NegativeToPositive()
         {
-            for (int i = -1000; i <= 1000; i++)
+            for (int i = 1000; i >= -1000; i--)
             {
                 Console.WriteLine(i);
             }
